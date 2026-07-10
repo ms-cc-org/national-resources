@@ -9,10 +9,10 @@ With a focus on ease of use and broad accessibility, Jetstream2 is designed for 
 # Logging in to Jetstream2
 There are multiple ways to login to Jetsteram2. </br>
 If you are new to Jetstream2 and unsure which interface to use, Exosphere is a great place to start. Whether you are exploring new software tools, running compute-intensive jobs, teaching a course/workshop, or building a science gateway, Exosphere can likely help you reach your goals.
-- Exosphere (Graphical User Interface)
-- Horizon (Graphical User Interface) 
-- CACAO (Grpahical User Interface)
-- OpenStack CLI (Command Line Interface)
+- [Exosphere (Graphical User Interface)](../jetstream2/login/exosphere.md)
+- [Horizon (Graphical User Interface](../jetstream2/login/horizon.md)
+- [CACAO (Grpahical User Interface)](../jetstream2/login/cacao.md)
+- [OpenStack CLI (Command Line Interface)](../jetstream2/login/openstack-cli.md)
 
 # References:
 https://docs.jetstream-cloud.org/getting-started/overview/
