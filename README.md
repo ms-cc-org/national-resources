@@ -52,8 +52,8 @@ def estimate_pi(num_samples):
             inside_circle += 1
 
     # Ratio of points inside circle to total points equals Pi / 4
-    # Therefore, Pi = 4 * (inside_circle / total_samples)
-    pi_estimate = 4.0 * inside_circle / total_samples
+    # Therefore, Pi = 4 * (inside_circle / num_samples)
+    pi_estimate = 4.0 * inside_circle / num_samples
     return pi_estimate
 
 if __name__ == "__main__":
