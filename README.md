@@ -1,4 +1,4 @@
-# national-resources
+# A Guide to use National Computing Resources
 How to access and use National Computing Resources.
 
 # 1. Example: Monte Carlo Pi Estimate
