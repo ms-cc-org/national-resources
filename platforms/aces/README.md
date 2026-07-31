@@ -28,7 +28,9 @@ login.aces.hprc.tamu.edu ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDWjCsdESNmR+iHKGh
 login.aces.hprc.tamu.edu ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNYIbL8C+QxRoTbbElBa1BdJuAWYB8VGntWHs5mJ0xrcqYrUjGMfQG58Sf4zuDJKgdOeRFmGunX1Hq6HRKG7UD8=
 ```
 ### 2.2 Generate the ssh key and download the keys
-There are two ways to generate the ssh keys. The keys are valid only for 49 hours.
+There are two ways to generate the ssh keys. </br>
+
+The keys are valid only for 49 hours. You need to run step 2.2 and 2.3 once every 49 hours.
 
 #### 2.2.1 Generate from sshca app (Preferred for initial setup)
 - Login to the ACES portal https://portal-aces.hprc.tamu.edu
@@ -38,7 +40,7 @@ There are two ways to generate the ssh keys. The keys are valid only for 49 hour
 - Download the key pair files 'id_aces_tamu' and 'id_aces_tamu-cert.pub'. Note the location of the downloaded files.
 
 
-#### 2.2.1 Generate from Portal Shell CLI
+#### 2.2.2 Generate from Portal Shell CLI
 - Login to the ACES portal https://portal-aces.hprc.tamu.edu
 - Open a terminal: Go to the Clusters drop down menu and click >_aces Shell Access
 - Run the script:
