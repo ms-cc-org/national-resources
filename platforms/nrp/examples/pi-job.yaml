@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: monte-carlo-pi-job
-  namespace: i2-mscc-nrp-test # Replace with your ACCESS allocated namespace
+  namespace: i2-mscc-nrp-test # Replace with your NRP allocated namespace
 spec:
   # Delete pod automatically 1 hour after completion to keep cluster clean
   ttlSecondsAfterFinished: 3600
