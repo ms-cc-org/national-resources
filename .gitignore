@@ -1,0 +1,132 @@
+# ==========================================
+# HPC & Slurm Job Outputs
+# ==========================================
+# Default Slurm output and error logs
+slurm-*.out
+slurm-*.err
+slurm-*.log
+
+# Common custom log directories / files
+logs/
+*.stdout
+*.stderr
+*.log
+
+# PBS / LSF / TORQUE job output patterns (for cross-cluster users)
+*.o[0-9]*
+*.e[0-9]*
+*.cobaltlog
+
+# Core dumps from crashed HPC programs
+core
+core.[0-9]*
+
+# ==========================================
+# Security & Credentials (CRITICAL)
+# ==========================================
+# Never commit SSH keys or host configurations
+*.pem
+*.key
+*.pub
+id_rsa*
+id_ed25519*
+known_hosts
+config
+
+
+# API keys and environment configuration files
+.env
+.env.*
+secrets.json
+*.credentials
+
+
+# ==========================================
+# Compiled Binaries & HPC Build Artifacts
+# ==========================================
+# C / C++ / Fortran compilation outputs
+*.o
+*.ko
+*.obj
+*.elf
+*.so
+*.so.*
+*.a
+*.lib
+*.la
+*.lai
+
+# Common HPC build directories
+build/
+dist/
+bin/
+CMakeCache.txt
+CMakeFiles/
+Makefile.in
+
+
+# ==========================================
+# Python & Data Science
+# ==========================================
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+*.venv/
+conda-env/
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+
+# Data directories (Prevent pushing large datasets intended for Scratch/Lustre)
+data/
+datasets/
+raw_data/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.nc
+*.npy
+*.npz
+
+
+# Exception: allow small sample example configuration CSVs if explicitly tracked
+!data/sample_*.csv
+
+# ==========================================
+# Containers & Modules
+# ==========================================
+# Apptainer / Singularity images (too large for Git)
+*.sif
+*.simg
+*.sandbox/
+
+# Conda / Spack build artifacts
+.spack-env/
+.conda/
+
+# ==========================================
+# Editor & OS Artifacts
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# Linux / Editor temp files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
