@@ -1,6 +1,6 @@
 # Submit Batch Job 
 
-- Once you are logged in to ospool cluster, create [monte_carlo.py](../../../examples/monte_carlo.py) to your home folder location which would uaually be "/home/<ospool-username>"
+- Once you are logged in to ospool cluster, create [monte_carlo.py](../../../examples/monte_carlo.py) to your home folder location which would usually be "/home/ospool-username"
 - Create [run_py.sh](./run_py.sh) file on your home folder
 - Create [monte_carlo.sub](./monte_carlo.sub) file on your home folder
 -  Run the command `condor_submit monte_carlo.sub `to submit the job
