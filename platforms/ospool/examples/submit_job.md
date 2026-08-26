@@ -25,7 +25,7 @@ Total for query: 1 jobs; 0 completed, 0 removed, 1 idle, 0 running, 0 held, 0 su
 Total for sanju.timsina@ap40.uw.osg-htc.org: 1 jobs; 0 completed, 0 removed, 1 idle, 0 running, 0 held, 0 suspended 
 Total for all users: 60748 jobs; 0 completed, 1 removed, 36226 idle, 6309 running, 18212 held, 0 suspended
 ```
-- Once the job is completed, output in the .out folder specified on your .sub file
+- Once the job is completed, output will be in the .out folder specified on your .sub file
 ```
 $ cat monte-carlo_14994430_0.out
 --> Starting Monte Carlo Pi calculation with 10,000,000 samples...
